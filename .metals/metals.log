@@ -1,0 +1,1170 @@
+INFO  time: initialize in 0.35s
+INFO  running '/usr/lib/jvm/jdk_8/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals3836392281730318522/sbt-launch.jar metalsEnable bloopInstall'
+INFO  [info] Loading settings for project global-plugins from metals.sbt ...
+INFO  [info] Loading global plugins from /home/serge/.sbt/1.0/plugins
+INFO  [info] Loading settings for project phone-book-build from plugins.sbt ...
+INFO  [info] Loading project definition from /home/serge/CODING/scala/phone-book/project
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [success] Generated .bloop/phone-book-build.json
+INFO  [success] Total time: 2 s, completed 07.12.2019 12:18:55
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [info] Loading settings for project root from build.sbt ...
+INFO  [info] Set current project to phone-book (in build file:/home/serge/CODING/scala/phone-book/)
+INFO  [info] Set current project to phone-book (in build file:/home/serge/CODING/scala/phone-book/)
+INFO  [info] semanticdb-scalac is enabled
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [success] Generated .bloop/root.json
+INFO  [success] Generated .bloop/root-test.json
+INFO  [success] Total time: 4 s, completed 07.12.2019 12:19:03
+INFO  time: ran 'sbt bloopInstall' in 16s
+INFO  build tool exit: 0
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp4066854321916377267/15z88eucatt1r.socket'
+The server is listening for incoming connections at local:///tmp/bsp4066854321916377267/15z88eucatt1r.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp4066854321916377267/15z88eucatt1r.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/serge/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 2.59s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.25s
+INFO  time: indexed workspace in 3.17s
+WARN  no build target: 
+Downloading https://repo1.maven.org/maven2/org/scalameta/mtags_2.13.1/0.7.6/mtags_2.13.1-0.7.6.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/scalameta/mtags_2.13.1/0.7.6/mtags_2.13.1-0.7.6.pom
+INFO  compiling root (8 scala sources and 1 java source)
+Downloaded https://repo1.maven.org/maven2/org/scalameta/mtags_2.13.1/0.7.6/mtags_2.13.1-0.7.6.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/mtags_2.13.1/0.7.6/mtags_2.13.1-0.7.6.pom.sha1
+Downloading https://repo1.maven.org/maven2/org/scalameta/mtags_2.13.1/0.7.6/
+Downloaded https://repo1.maven.org/maven2/org/scalameta/mtags_2.13.1/0.7.6/
+INFO  Non-compiled module 'compiler-bridge_2.13' for Scala 2.13.1. Compiling...
+8 warnings found
+INFO    Compilation completed in 8.416s.
+INFO  time: compiled root in 11s
+ERROR Failed to compile 'root'
+INFO  compiling root (8 scala sources and 1 java source)
+INFO  time: compiled root in 3.31s
+дек 07, 2019 12:37:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,Matcher.class)
+дек 07, 2019 12:37:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,Matcher$.class)
+дек 07, 2019 12:37:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,AMatcher.class)
+дек 07, 2019 12:37:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,AMatcher$.class)
+дек 07, 2019 12:37:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,AnMatcher.class)
+дек 07, 2019 12:37:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,BeMatcher.class)
+дек 07, 2019 12:37:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,AnMatcher$.class)
+дек 07, 2019 12:37:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,BeMatcher$.class)
+дек 07, 2019 12:37:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherProducers$Composifier.class)
+дек 07, 2019 12:37:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,BePropertyMatcher.class)
+дек 07, 2019 12:37:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,TypeMatcherHelper.class)
+дек 07, 2019 12:37:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,BePropertyMatcher$.class)
+дек 07, 2019 12:37:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,TypeMatcherHelper$.class)
+дек 07, 2019 12:37:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatchPatternHelper.class)
+дек 07, 2019 12:37:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatchPatternHelper$.class)
+дек 07, 2019 12:37:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,HavePropertyMatcher.class)
+дек 07, 2019 12:37:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,HavePropertyMatcher$.class)
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.8s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.75s
+INFO  compiling root (8 scala sources and 1 java source)
+INFO  time: compiled root in 1.63s
+дек 07, 2019 2:08:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,Matcher.class)
+дек 07, 2019 2:08:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,Matcher$.class)
+дек 07, 2019 2:08:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,AMatcher.class)
+дек 07, 2019 2:08:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,AMatcher$.class)
+дек 07, 2019 2:08:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,AnMatcher.class)
+дек 07, 2019 2:08:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,BeMatcher.class)
+дек 07, 2019 2:08:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,AnMatcher$.class)
+дек 07, 2019 2:08:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,BeMatcher$.class)
+дек 07, 2019 2:08:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherProducers$Composifier.class)
+дек 07, 2019 2:08:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,BePropertyMatcher.class)
+дек 07, 2019 2:08:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,TypeMatcherHelper.class)
+дек 07, 2019 2:08:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,BePropertyMatcher$.class)
+дек 07, 2019 2:08:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,TypeMatcherHelper$.class)
+дек 07, 2019 2:08:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatchPatternHelper.class)
+дек 07, 2019 2:08:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatchPatternHelper$.class)
+дек 07, 2019 2:08:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,HavePropertyMatcher.class)
+дек 07, 2019 2:08:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,HavePropertyMatcher$.class)
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.11s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 67ms
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.67s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.43s
+дек 07, 2019 3:04:32 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/eclipse/jetty/websocket/common/,OpCode.class)
+дек 07, 2019 3:04:32 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(io/netty/util/internal/shaded/org/jctools/queues/,LinkedQueueNode.class)
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.3s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.26s
+дек 07, 2019 3:17:52 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+дек 07, 2019 3:17:52 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:418)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:135)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:109)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:98)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:811)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:230)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+дек 07, 2019 3:17:52 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+дек 07, 2019 3:17:52 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:418)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:135)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:109)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:98)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:811)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:230)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.28s
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 1.37s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.71s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.14s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.27s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.16s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.24s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.15s
+ERROR Failed to compile 'root'
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 0.84s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.13s
+ERROR Failed to compile 'root'
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 0.28s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.11s
+ERROR Failed to compile 'root'
+дек 07, 2019 3:19:45 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/util/concurrent/,Future.class)
+дек 07, 2019 3:19:45 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,Futures.class)
+дек 07, 2019 3:19:46 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/util/concurrent/,Future.class)
+дек 07, 2019 3:19:46 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,Futures.class)
+дек 07, 2019 3:19:46 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/util/concurrent/,Future.class)
+дек 07, 2019 3:19:46 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,Futures.class)
+дек 07, 2019 3:19:46 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/util/concurrent/,Future.class)
+дек 07, 2019 3:19:46 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,Futures.class)
+дек 07, 2019 3:20:12 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/util/concurrent/,Future.class)
+дек 07, 2019 3:20:12 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,Futures.class)
+дек 07, 2019 3:20:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(scala/collection/parallel/mutable/,ParSeq.class)
+дек 07, 2019 3:20:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(scala/collection/parallel/immutable/,ParSeq.class)
+дек 07, 2019 3:20:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(scala/collection/parallel/mutable/,ParSeq$.class)
+дек 07, 2019 3:20:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(scala/collection/parallel/immutable/,ParSeq$.class)
+дек 07, 2019 3:20:36 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/util/,ResourceLeakDetector$Record.class)
+дек 07, 2019 3:20:36 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/implementation/bind/annotation/,TargetMethodAnnotationDrivenBinder$Record.class)
+дек 07, 2019 3:20:36 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/dynamic/scaffold/,TypeWriter$MethodPool$Record.class)
+дек 07, 2019 3:20:36 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/svg/,SVGRect.class)
+дек 07, 2019 3:20:36 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/css/dom/,RectImpl.class)
+дек 07, 2019 3:20:39 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/util/,ResourceLeakDetector$Record.class)
+дек 07, 2019 3:20:39 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/implementation/bind/annotation/,TargetMethodAnnotationDrivenBinder$Record.class)
+дек 07, 2019 3:20:39 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/dynamic/scaffold/,TypeWriter$MethodPool$Record.class)
+дек 07, 2019 3:20:39 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRecord.class)
+дек 07, 2019 3:20:39 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/tools/,DashboardReporter$TestRecord.class)
+дек 07, 2019 3:20:39 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/tools/,DashboardReporter$SuiteRecord.class)
+дек 07, 2019 3:20:39 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRawRecord.class)
+дек 07, 2019 3:20:39 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsPtrRecord.class)
+дек 07, 2019 3:20:39 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRecordType.class)
+дек 07, 2019 3:20:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/util/,ResourceLeakDetector$Record.class)
+дек 07, 2019 3:20:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/implementation/bind/annotation/,TargetMethodAnnotationDrivenBinder$Record.class)
+дек 07, 2019 3:20:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/dynamic/scaffold/,TypeWriter$MethodPool$Record.class)
+дек 07, 2019 3:20:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRecord.class)
+дек 07, 2019 3:20:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/tools/,DashboardReporter$TestRecord.class)
+дек 07, 2019 3:20:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/tools/,DashboardReporter$SuiteRecord.class)
+дек 07, 2019 3:20:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRawRecord.class)
+дек 07, 2019 3:20:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsPtrRecord.class)
+дек 07, 2019 3:20:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRecordType.class)
+дек 07, 2019 3:20:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xml/serializer/,NamespaceMappings$MappingRecord.class)
+дек 07, 2019 3:20:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/events/,RecordableEvent.class)
+дек 07, 2019 3:20:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsOptEcsRecord.class)
+дек 07, 2019 3:20:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRecordDecoder.class)
+дек 07, 2019 3:20:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRecordEncoder.class)
+дек 07, 2019 3:20:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/util/,ResourceLeakDetector$Record.class)
+дек 07, 2019 3:20:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/implementation/bind/annotation/,TargetMethodAnnotationDrivenBinder$Record.class)
+дек 07, 2019 3:20:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/dynamic/scaffold/,TypeWriter$MethodPool$Record.class)
+дек 07, 2019 3:20:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRecord.class)
+дек 07, 2019 3:20:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/tools/,DashboardReporter$TestRecord.class)
+дек 07, 2019 3:20:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/tools/,DashboardReporter$SuiteRecord.class)
+дек 07, 2019 3:20:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRawRecord.class)
+дек 07, 2019 3:20:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsPtrRecord.class)
+дек 07, 2019 3:20:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRecordType.class)
+дек 07, 2019 3:20:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xml/serializer/,NamespaceMappings$MappingRecord.class)
+дек 07, 2019 3:20:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/events/,RecordableEvent.class)
+дек 07, 2019 3:20:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsOptEcsRecord.class)
+дек 07, 2019 3:20:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRecordDecoder.class)
+дек 07, 2019 3:20:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRecordEncoder.class)
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 0.75s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.14s
+ERROR Failed to compile 'root'
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 0.28s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 98ms
+ERROR Failed to compile 'root'
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 0.26s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.1s
+ERROR Failed to compile 'root'
+дек 07, 2019 3:20:59 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/util/,ResourceLeakDetector$Record.class)
+дек 07, 2019 3:20:59 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/implementation/bind/annotation/,TargetMethodAnnotationDrivenBinder$Record.class)
+дек 07, 2019 3:20:59 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/dynamic/scaffold/,TypeWriter$MethodPool$Record.class)
+дек 07, 2019 3:20:59 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRecord.class)
+дек 07, 2019 3:20:59 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/tools/,DashboardReporter$TestRecord.class)
+дек 07, 2019 3:20:59 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/tools/,DashboardReporter$SuiteRecord.class)
+дек 07, 2019 3:20:59 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRawRecord.class)
+дек 07, 2019 3:20:59 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsPtrRecord.class)
+дек 07, 2019 3:20:59 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRecordType.class)
+дек 07, 2019 3:20:59 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xml/serializer/,NamespaceMappings$MappingRecord.class)
+дек 07, 2019 3:20:59 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/events/,RecordableEvent.class)
+дек 07, 2019 3:20:59 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsOptEcsRecord.class)
+дек 07, 2019 3:20:59 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRecordDecoder.class)
+дек 07, 2019 3:20:59 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRecordEncoder.class)
+дек 07, 2019 3:22:14 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/eclipse/jetty/websocket/common/,OpCode.class)
+дек 07, 2019 3:22:14 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(io/netty/util/internal/shaded/org/jctools/queues/,LinkedQueueNode.class)
+дек 07, 2019 3:22:36 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/util/concurrent/,Future.class)
+дек 07, 2019 3:22:36 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,Futures.class)
+дек 07, 2019 3:22:47 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(scala/collection/parallel/mutable/,ParSeq.class)
+дек 07, 2019 3:22:47 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(scala/collection/parallel/immutable/,ParSeq.class)
+дек 07, 2019 3:22:47 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(scala/collection/parallel/mutable/,ParSeq$.class)
+дек 07, 2019 3:22:47 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(scala/collection/parallel/immutable/,ParSeq$.class)
+дек 07, 2019 3:22:58 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/dv/dtd/,NMTOKENDatatypeValidator.class)
+дек 07, 2019 3:22:58 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/dv/dtd/,NOTATIONDatatypeValidator.class)
+дек 07, 2019 3:22:58 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xerces/impl/dv/dtd/,XML11NMTOKENDatatypeValidator.class)
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 0.11s
+ERROR Failed to compile 'root'
+INFO  compiling root (2 scala sources)
+INFO  time: compiled root in 74ms
+ERROR Failed to compile 'root'
+дек 07, 2019 3:24:05 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/util/,ResourceLeakDetector$Record.class)
+дек 07, 2019 3:24:05 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/implementation/bind/annotation/,TargetMethodAnnotationDrivenBinder$Record.class)
+дек 07, 2019 3:24:05 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/dynamic/scaffold/,TypeWriter$MethodPool$Record.class)
+дек 07, 2019 3:24:05 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/svg/,SVGRect.class)
+дек 07, 2019 3:24:05 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/css/dom/,RectImpl.class)
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 0.12s
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 76ms
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 0.12s
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 80ms
+ERROR Failed to compile 'root'
+дек 07, 2019 3:36:44 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xml/serializer/utils/,AttList.class)
+дек 07, 2019 3:36:44 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/bcel/verifier/statics/,IntList.class)
+дек 07, 2019 3:36:45 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xml/serializer/utils/,AttList.class)
+дек 07, 2019 3:36:45 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/bcel/verifier/statics/,IntList.class)
+дек 07, 2019 3:37:24 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xml/serializer/utils/,AttList.class)
+дек 07, 2019 3:37:24 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/bcel/verifier/statics/,IntList.class)
+дек 07, 2019 3:37:24 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xml/serializer/utils/,AttList.class)
+дек 07, 2019 3:37:24 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/bcel/verifier/statics/,IntList.class)
+дек 07, 2019 3:38:24 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/util/,ResourceLeakDetector$Record.class)
+дек 07, 2019 3:38:24 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/implementation/bind/annotation/,TargetMethodAnnotationDrivenBinder$Record.class)
+дек 07, 2019 3:38:24 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/dynamic/scaffold/,TypeWriter$MethodPool$Record.class)
+дек 07, 2019 3:38:24 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/svg/,SVGRect.class)
+дек 07, 2019 3:38:24 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/css/dom/,RectImpl.class)
+INFO  /home/serge/CODING/scala/phone-book/app/models/Record.scala:7:46: stale scalac error: not found: value TODO
+    def getAllRecords: Future[Seq[Record]] = TODO
+                                             ^^^^
+INFO  /home/serge/CODING/scala/phone-book/app/models/Record.scala:7:46: stale scalac error: not found: value TODO
+    def getAllRecords: Future[Seq[Record]] = TODO
+                                             ^^^^
+дек 07, 2019 3:39:44 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xpath/operations/,String.class)
+дек 07, 2019 3:39:44 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xpath/operations/,String.class)
+INFO  /home/serge/CODING/scala/phone-book/app/models/Record.scala:7:46: stale scalac error: not found: value TODO
+    def getAllRecords: Future[Seq[Record]] = TODO
+                                             ^^^^
+INFO  /home/serge/CODING/scala/phone-book/app/models/Record.scala:7:46: stale scalac error: not found: value TODO
+    def getAllRecords: Future[Seq[Record]] = TODO
+                                             ^^^^
+дек 07, 2019 3:41:54 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/util/concurrent/,Future.class)
+дек 07, 2019 3:41:54 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,Futures.class)
+дек 07, 2019 3:41:54 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/util/concurrent/,Future.class)
+дек 07, 2019 3:41:54 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/concurrent/,Futures.class)
+дек 07, 2019 3:42:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,Matcher.class)
+дек 07, 2019 3:42:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,Matcher$.class)
+дек 07, 2019 3:42:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,AMatcher.class)
+дек 07, 2019 3:42:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,AMatcher$.class)
+дек 07, 2019 3:42:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,AnMatcher.class)
+дек 07, 2019 3:42:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,BeMatcher.class)
+дек 07, 2019 3:42:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,AnMatcher$.class)
+дек 07, 2019 3:42:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,BeMatcher$.class)
+дек 07, 2019 3:42:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherProducers$Composifier.class)
+дек 07, 2019 3:42:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,BePropertyMatcher.class)
+дек 07, 2019 3:42:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,TypeMatcherHelper.class)
+дек 07, 2019 3:42:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,BePropertyMatcher$.class)
+дек 07, 2019 3:42:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,TypeMatcherHelper$.class)
+дек 07, 2019 3:42:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatchPatternHelper.class)
+дек 07, 2019 3:42:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatchPatternHelper$.class)
+дек 07, 2019 3:42:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,HavePropertyMatcher.class)
+дек 07, 2019 3:42:40 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,HavePropertyMatcher$.class)
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 0.12s
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 73ms
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 0.11s
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 89ms
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 0.12s
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 82ms
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 0.11s
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 89ms
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 0.1s
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 78ms
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 0.11s
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 0.11s
+ERROR Failed to compile 'root'
+дек 07, 2019 3:47:46 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/util/,ResourceLeakDetector$Record.class)
+дек 07, 2019 3:47:46 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/implementation/bind/annotation/,TargetMethodAnnotationDrivenBinder$Record.class)
+дек 07, 2019 3:47:46 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/dynamic/scaffold/,TypeWriter$MethodPool$Record.class)
+дек 07, 2019 3:47:46 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/svg/,SVGRect.class)
+дек 07, 2019 3:47:46 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/css/dom/,RectImpl.class)
+дек 07, 2019 3:47:48 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/util/,ResourceLeakDetector$Record.class)
+дек 07, 2019 3:47:48 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/implementation/bind/annotation/,TargetMethodAnnotationDrivenBinder$Record.class)
+дек 07, 2019 3:47:48 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/dynamic/scaffold/,TypeWriter$MethodPool$Record.class)
+дек 07, 2019 3:47:48 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRecord.class)
+дек 07, 2019 3:47:48 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/tools/,DashboardReporter$TestRecord.class)
+дек 07, 2019 3:47:48 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/tools/,DashboardReporter$SuiteRecord.class)
+дек 07, 2019 3:47:48 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRawRecord.class)
+дек 07, 2019 3:47:48 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsPtrRecord.class)
+дек 07, 2019 3:47:48 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRecordType.class)
+дек 07, 2019 3:47:48 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/util/,ResourceLeakDetector$Record.class)
+дек 07, 2019 3:47:48 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/implementation/bind/annotation/,TargetMethodAnnotationDrivenBinder$Record.class)
+дек 07, 2019 3:47:48 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/dynamic/scaffold/,TypeWriter$MethodPool$Record.class)
+дек 07, 2019 3:47:48 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRecord.class)
+дек 07, 2019 3:47:48 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/tools/,DashboardReporter$TestRecord.class)
+дек 07, 2019 3:47:48 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/tools/,DashboardReporter$SuiteRecord.class)
+дек 07, 2019 3:47:48 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRawRecord.class)
+дек 07, 2019 3:47:48 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsPtrRecord.class)
+дек 07, 2019 3:47:48 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRecordType.class)
+дек 07, 2019 3:47:48 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xml/serializer/,NamespaceMappings$MappingRecord.class)
+дек 07, 2019 3:47:48 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/events/,RecordableEvent.class)
+дек 07, 2019 3:47:48 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsOptEcsRecord.class)
+дек 07, 2019 3:47:48 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRecordDecoder.class)
+дек 07, 2019 3:47:48 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRecordEncoder.class)
+дек 07, 2019 3:47:49 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/util/,ResourceLeakDetector$Record.class)
+дек 07, 2019 3:47:49 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/implementation/bind/annotation/,TargetMethodAnnotationDrivenBinder$Record.class)
+дек 07, 2019 3:47:49 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/dynamic/scaffold/,TypeWriter$MethodPool$Record.class)
+дек 07, 2019 3:47:49 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRecord.class)
+дек 07, 2019 3:47:49 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/tools/,DashboardReporter$TestRecord.class)
+дек 07, 2019 3:47:49 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/tools/,DashboardReporter$SuiteRecord.class)
+дек 07, 2019 3:47:49 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRawRecord.class)
+дек 07, 2019 3:47:49 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsPtrRecord.class)
+дек 07, 2019 3:47:49 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRecordType.class)
+дек 07, 2019 3:47:49 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xml/serializer/,NamespaceMappings$MappingRecord.class)
+дек 07, 2019 3:47:49 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/events/,RecordableEvent.class)
+дек 07, 2019 3:47:49 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsOptEcsRecord.class)
+дек 07, 2019 3:47:49 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRecordDecoder.class)
+дек 07, 2019 3:47:49 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRecordEncoder.class)
+дек 07, 2019 3:48:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/,Consts.class)
+дек 07, 2019 3:48:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/,HttpStatus.class)
+дек 07, 2019 3:48:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/,HttpHeaders.class)
+дек 07, 2019 3:48:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(io/netty/handler/codec/rtsp/,RtspVersions.class)
+дек 07, 2019 3:48:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/config/,MessageConstraints.class)
+дек 07, 2019 3:48:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(io/netty/handler/codec/rtsp/,RtspResponseStatuses.class)
+дек 07, 2019 3:48:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/,HttpConnectionMetrics.class)
+дек 07, 2019 3:48:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/junit/runners/parameterized/,BlockJUnit4ClassRunnerWithParameters.class)
+дек 07, 2019 3:48:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/impl/auth/,GGSSchemeBase.class)
+дек 07, 2019 3:48:29 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/impl/auth/,AuthSchemeBase.class)
+дек 07, 2019 3:48:43 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/,Consts.class)
+дек 07, 2019 3:48:43 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/,HttpStatus.class)
+дек 07, 2019 3:48:43 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/,HttpHeaders.class)
+дек 07, 2019 3:48:43 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(io/netty/handler/codec/rtsp/,RtspVersions.class)
+дек 07, 2019 3:48:43 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/config/,MessageConstraints.class)
+дек 07, 2019 3:48:43 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(io/netty/handler/codec/rtsp/,RtspResponseStatuses.class)
+дек 07, 2019 3:48:43 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/,HttpConnectionMetrics.class)
+дек 07, 2019 3:48:43 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/junit/runners/parameterized/,BlockJUnit4ClassRunnerWithParameters.class)
+дек 07, 2019 3:48:43 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/impl/auth/,GGSSchemeBase.class)
+дек 07, 2019 3:48:43 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/impl/auth/,AuthSchemeBase.class)
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 0.11s
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 66ms
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 0.1s
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 68ms
+ERROR Failed to compile 'root'
+дек 07, 2019 3:51:36 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/,Consts.class)
+дек 07, 2019 3:51:36 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/,HttpStatus.class)
+дек 07, 2019 3:51:36 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/,HttpHeaders.class)
+дек 07, 2019 3:51:36 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(io/netty/handler/codec/rtsp/,RtspVersions.class)
+дек 07, 2019 3:51:36 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/config/,MessageConstraints.class)
+дек 07, 2019 3:51:36 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(io/netty/handler/codec/rtsp/,RtspResponseStatuses.class)
+дек 07, 2019 3:51:36 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/,HttpConnectionMetrics.class)
+дек 07, 2019 3:51:36 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/junit/runners/parameterized/,BlockJUnit4ClassRunnerWithParameters.class)
+дек 07, 2019 3:51:36 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/impl/auth/,GGSSchemeBase.class)
+дек 07, 2019 3:51:36 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/http/impl/auth/,AuthSchemeBase.class)
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 63ms
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 29ms
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 0.1s
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 69ms
+ERROR Failed to compile 'root'
+дек 07, 2019 3:52:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1746
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 0.1s
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 0.13s
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 73ms
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 98ms
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources)
+INFO  time: compiled root in 69ms
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.23s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.25s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.19s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.18s
+ERROR Failed to compile 'root'
+дек 07, 2019 3:55:17 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,Matcher.class)
+дек 07, 2019 3:55:17 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,Matcher$.class)
+дек 07, 2019 3:55:17 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,AMatcher.class)
+дек 07, 2019 3:55:17 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,AMatcher$.class)
+дек 07, 2019 3:55:17 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,AnMatcher.class)
+дек 07, 2019 3:55:17 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,BeMatcher.class)
+дек 07, 2019 3:55:17 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,AnMatcher$.class)
+дек 07, 2019 3:55:17 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,BeMatcher$.class)
+дек 07, 2019 3:55:17 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherProducers$Composifier.class)
+дек 07, 2019 3:55:17 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,BePropertyMatcher.class)
+дек 07, 2019 3:55:17 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,TypeMatcherHelper.class)
+дек 07, 2019 3:55:17 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,BePropertyMatcher$.class)
+дек 07, 2019 3:55:17 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,TypeMatcherHelper$.class)
+дек 07, 2019 3:55:17 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatchPatternHelper.class)
+дек 07, 2019 3:55:17 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatchPatternHelper$.class)
+дек 07, 2019 3:55:17 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,HavePropertyMatcher.class)
+дек 07, 2019 3:55:17 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,HavePropertyMatcher$.class)
+дек 07, 2019 3:55:18 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,Matcher.class)
+дек 07, 2019 3:55:18 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,Matcher$.class)
+дек 07, 2019 3:55:18 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,AMatcher.class)
+дек 07, 2019 3:55:18 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,AMatcher$.class)
+дек 07, 2019 3:55:18 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,AnMatcher.class)
+дек 07, 2019 3:55:18 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,BeMatcher.class)
+дек 07, 2019 3:55:18 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,AnMatcher$.class)
+дек 07, 2019 3:55:18 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,BeMatcher$.class)
+дек 07, 2019 3:55:18 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherProducers$Composifier.class)
+дек 07, 2019 3:55:18 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,BePropertyMatcher.class)
+дек 07, 2019 3:55:18 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,TypeMatcherHelper.class)
+дек 07, 2019 3:55:18 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,BePropertyMatcher$.class)
+дек 07, 2019 3:55:18 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,TypeMatcherHelper$.class)
+дек 07, 2019 3:55:18 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatchPatternHelper.class)
+дек 07, 2019 3:55:18 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatchPatternHelper$.class)
+дек 07, 2019 3:55:18 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,HavePropertyMatcher.class)
+дек 07, 2019 3:55:18 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,HavePropertyMatcher$.class)
+дек 07, 2019 3:55:19 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/util/,ResourceLeakDetector$Record.class)
+дек 07, 2019 3:55:19 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/implementation/bind/annotation/,TargetMethodAnnotationDrivenBinder$Record.class)
+дек 07, 2019 3:55:19 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/dynamic/scaffold/,TypeWriter$MethodPool$Record.class)
+дек 07, 2019 3:55:19 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/htmlunit/javascript/host/svg/,SVGRect.class)
+дек 07, 2019 3:55:19 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(com/gargoylesoftware/css/dom/,RectImpl.class)
+дек 07, 2019 3:55:21 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/util/,ResourceLeakDetector$Record.class)
+дек 07, 2019 3:55:21 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/implementation/bind/annotation/,TargetMethodAnnotationDrivenBinder$Record.class)
+дек 07, 2019 3:55:21 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/dynamic/scaffold/,TypeWriter$MethodPool$Record.class)
+дек 07, 2019 3:55:21 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRecord.class)
+дек 07, 2019 3:55:21 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/tools/,DashboardReporter$TestRecord.class)
+дек 07, 2019 3:55:21 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/tools/,DashboardReporter$SuiteRecord.class)
+дек 07, 2019 3:55:21 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRawRecord.class)
+дек 07, 2019 3:55:21 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsPtrRecord.class)
+дек 07, 2019 3:55:21 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRecordType.class)
+дек 07, 2019 3:55:21 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/util/,ResourceLeakDetector$Record.class)
+дек 07, 2019 3:55:21 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/implementation/bind/annotation/,TargetMethodAnnotationDrivenBinder$Record.class)
+дек 07, 2019 3:55:21 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/dynamic/scaffold/,TypeWriter$MethodPool$Record.class)
+дек 07, 2019 3:55:21 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRecord.class)
+дек 07, 2019 3:55:21 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/tools/,DashboardReporter$TestRecord.class)
+дек 07, 2019 3:55:21 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/tools/,DashboardReporter$SuiteRecord.class)
+дек 07, 2019 3:55:21 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRawRecord.class)
+дек 07, 2019 3:55:21 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsPtrRecord.class)
+дек 07, 2019 3:55:21 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRecordType.class)
+дек 07, 2019 3:55:21 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xml/serializer/,NamespaceMappings$MappingRecord.class)
+дек 07, 2019 3:55:21 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/events/,RecordableEvent.class)
+дек 07, 2019 3:55:21 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsOptEcsRecord.class)
+дек 07, 2019 3:55:21 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRecordDecoder.class)
+дек 07, 2019 3:55:21 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRecordEncoder.class)
+дек 07, 2019 3:55:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/util/,ResourceLeakDetector$Record.class)
+дек 07, 2019 3:55:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/implementation/bind/annotation/,TargetMethodAnnotationDrivenBinder$Record.class)
+дек 07, 2019 3:55:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(net/bytebuddy/dynamic/scaffold/,TypeWriter$MethodPool$Record.class)
+дек 07, 2019 3:55:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRecord.class)
+дек 07, 2019 3:55:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/tools/,DashboardReporter$TestRecord.class)
+дек 07, 2019 3:55:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/tools/,DashboardReporter$SuiteRecord.class)
+дек 07, 2019 3:55:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRawRecord.class)
+дек 07, 2019 3:55:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsPtrRecord.class)
+дек 07, 2019 3:55:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRecordType.class)
+дек 07, 2019 3:55:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xml/serializer/,NamespaceMappings$MappingRecord.class)
+дек 07, 2019 3:55:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/events/,RecordableEvent.class)
+дек 07, 2019 3:55:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsOptEcsRecord.class)
+дек 07, 2019 3:55:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRecordDecoder.class)
+дек 07, 2019 3:55:25 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(play/shaded/ahc/io/netty/handler/codec/dns/,DnsRecordEncoder.class)
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.18s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.16s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.23s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.14s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.17s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.18s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.14s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.17s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.14s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.17s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.14s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.19s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.14s
+ERROR Failed to compile 'root'
+дек 07, 2019 4:56:51 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,Matcher.class)
+дек 07, 2019 4:56:51 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,Matcher$.class)
+дек 07, 2019 4:56:51 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,AMatcher.class)
+дек 07, 2019 4:56:51 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,AMatcher$.class)
+дек 07, 2019 4:56:51 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,AnMatcher.class)
+дек 07, 2019 4:56:51 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,BeMatcher.class)
+дек 07, 2019 4:56:51 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,AnMatcher$.class)
+дек 07, 2019 4:56:51 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,BeMatcher$.class)
+дек 07, 2019 4:56:51 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherProducers$Composifier.class)
+дек 07, 2019 4:56:51 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,BePropertyMatcher.class)
+дек 07, 2019 4:56:51 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,TypeMatcherHelper.class)
+дек 07, 2019 4:56:51 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,BePropertyMatcher$.class)
+дек 07, 2019 4:56:51 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,TypeMatcherHelper$.class)
+дек 07, 2019 4:56:51 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatchPatternHelper.class)
+дек 07, 2019 4:56:51 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatchPatternHelper$.class)
+дек 07, 2019 4:56:51 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,HavePropertyMatcher.class)
+дек 07, 2019 4:56:51 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,HavePropertyMatcher$.class)
+дек 07, 2019 4:56:51 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/regexp/,recompile.class)
+дек 07, 2019 4:56:51 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/regexp/,recompile.class)
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.17s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.13s
+ERROR Failed to compile 'root'
+дек 07, 2019 5:08:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2098
+дек 07, 2019 5:15:42 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,Matcher.class)
+дек 07, 2019 5:15:42 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,Matcher$.class)
+дек 07, 2019 5:15:42 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,AMatcher.class)
+дек 07, 2019 5:15:42 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,AMatcher$.class)
+дек 07, 2019 5:15:42 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,AnMatcher.class)
+дек 07, 2019 5:15:42 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,BeMatcher.class)
+дек 07, 2019 5:15:42 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,AnMatcher$.class)
+дек 07, 2019 5:15:42 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,BeMatcher$.class)
+дек 07, 2019 5:15:42 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherProducers$Composifier.class)
+дек 07, 2019 5:15:42 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,BePropertyMatcher.class)
+дек 07, 2019 5:15:42 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,TypeMatcherHelper.class)
+дек 07, 2019 5:15:42 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,BePropertyMatcher$.class)
+дек 07, 2019 5:15:42 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,TypeMatcherHelper$.class)
+дек 07, 2019 5:15:42 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatchPatternHelper.class)
+дек 07, 2019 5:15:42 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatchPatternHelper$.class)
+дек 07, 2019 5:15:42 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,HavePropertyMatcher.class)
+дек 07, 2019 5:15:42 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,HavePropertyMatcher$.class)
+дек 07, 2019 5:15:43 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/regexp/,recompile.class)
+дек 07, 2019 5:15:44 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/regexp/,recompile.class)
+дек 07, 2019 5:16:15 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,Matcher.class)
+дек 07, 2019 5:16:15 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,Matcher$.class)
+дек 07, 2019 5:16:15 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,AMatcher.class)
+дек 07, 2019 5:16:15 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,AMatcher$.class)
+дек 07, 2019 5:16:15 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,AnMatcher.class)
+дек 07, 2019 5:16:15 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,BeMatcher.class)
+дек 07, 2019 5:16:15 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,AnMatcher$.class)
+дек 07, 2019 5:16:15 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,BeMatcher$.class)
+дек 07, 2019 5:16:15 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatcherProducers$Composifier.class)
+дек 07, 2019 5:16:15 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,BePropertyMatcher.class)
+дек 07, 2019 5:16:15 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,TypeMatcherHelper.class)
+дек 07, 2019 5:16:15 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,BePropertyMatcher$.class)
+дек 07, 2019 5:16:15 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,TypeMatcherHelper$.class)
+дек 07, 2019 5:16:15 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatchPatternHelper.class)
+дек 07, 2019 5:16:15 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,MatchPatternHelper$.class)
+дек 07, 2019 5:16:15 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,HavePropertyMatcher.class)
+дек 07, 2019 5:16:15 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/scalatest/matchers/,HavePropertyMatcher$.class)
+дек 07, 2019 5:16:16 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/regexp/,recompile.class)
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.19s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.16s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.17s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.14s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.23s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.15s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.18s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.14s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.17s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.13s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.17s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.14s
+ERROR Failed to compile 'root'
+дек 07, 2019 5:25:47 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xml/serializer/utils/,AttList.class)
+дек 07, 2019 5:25:47 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/bcel/verifier/statics/,IntList.class)
+дек 07, 2019 5:25:48 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/xml/serializer/utils/,AttList.class)
+дек 07, 2019 5:25:48 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/apache/bcel/verifier/statics/,IntList.class)
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.16s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.14s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.17s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.19s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.16s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.13s
+ERROR Failed to compile 'root'
+дек 07, 2019 5:26:21 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/touch/,UpAction.class)
+дек 07, 2019 5:26:21 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/internal/,BaseAction.class)
+дек 07, 2019 5:26:21 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/touch/,DownAction.class)
+дек 07, 2019 5:26:21 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(org/openqa/selenium/interactions/touch/,MoveAction.class)
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.15s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.12s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.16s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.14s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.19s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.14s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.21s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.14s
+ERROR Failed to compile 'root'
+дек 07, 2019 5:48:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.17s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.13s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.16s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.12s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.17s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 0.12s
+ERROR Failed to compile 'root'
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 1.45s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.61s
+INFO  shutting down Metals
+shutdown request received: build/shutdown
+[0m[31m[E][0m BSP server cancelled, closing socket...
+Client in /home/serge/CODING/scala/phone-book/.bloop triggered cancellation. Cancelling tasks...
+INFO  bloop exit: 0
+INFO  time: initialize in 0.3s
+INFO  running embedded 'bloop bsp --protocol local --socket /tmp/bsp5449833313372272880/l550vd7gzvws.socket'
+INFO  skipping build import with status 'Installed'
+WARN  no build target: /home/serge/CODING/scala/phone-book/app/models/Record.scala
+The server is listening for incoming connections at local:///tmp/bsp5449833313372272880/l550vd7gzvws.socket...
+Accepted incoming BSP client connection at local:///tmp/bsp5449833313372272880/l550vd7gzvws.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/serge/.cache/metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 3.05s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.23s
+INFO  time: indexed workspace in 0.82s
+INFO  compiling root (10 scala sources and 1 java source)
+INFO  time: compiled root in 6.12s
+INFO  compiling root-test (1 scala source)
+INFO  time: compiled root-test in 1.31s

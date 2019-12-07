@@ -6,13 +6,13 @@
 # An example controller showing a sample home page
 GET     /                           controllers.HomeController.index
 
-->      /phones                     phones.PhonesRouter
+GET     /phones                     controllers.RecordController.list
 
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
+
+#->      /phones                     phones.PhonesRouter
 #POST    /phone/:number/:name        controllers.Phones.insert(number: Int, name: String)
-#GET     /phones                     controllers.Phones.list
 #PUT     /phone/:id/:name            controllers.Phones.updateName(id: Long, name: String)
 #PUT     /phone/:id/:number          controllers.Phones.updateName(id: Long, number: Int)
 #DELETE  /phone/:id                  controllers.Phones.
-
-# Map static resources from the /public folder to the /assets URL path
-#GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
