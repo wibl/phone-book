@@ -1,11 +1,12 @@
 package services
 
+import javax.inject.Inject
 import scala.concurrent.Future
 import models.{Record, Records}
 
-object RecordService {
+class RecordService @Inject() (records: Records) {
 
-    def getAllRecords: Future[List[Record]] = {
-        Records.getAllRecords
+    def getAllRecords: Future[Seq[Record]] = {
+        records.getAllRecords
     }
 }

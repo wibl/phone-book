@@ -1,6 +1,9 @@
 logs
 target
 /.idea
+/.metals
+/.bloop
+/.g8
 /.idea_modules
 /.classpath
 /.project

@@ -14,59 +14,76 @@
         "dependencies" : [
         ],
         "classpath" : [
-            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.10/jackson-datatype-jdk8-2.9.10.jar",
-            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.0/akka-slf4j_2.13-2.6.0.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.1/jackson-datatype-jdk8-2.10.1.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-jdbc-evolutions_2.13/2.8.0-RC2/play-jdbc-evolutions_2.13-2.8.0-RC2.jar",
             "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.jar",
-            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.13/2.7.4/play-json_2.13-2.7.4.jar",
-            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar",
             "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.jar",
             "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.1/scala-reflect-2.13.1.jar",
-            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.13/2.7.4/play-functional_2.13-2.7.4.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.1/ssl-config-core_2.13-0.4.1.jar",
             "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.2.2/guice-assistedinject-4.2.2.jar",
-            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar",
-            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.26/jcl-over-slf4j-1.7.26.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.29/jcl-over-slf4j-1.7.29.jar",
             "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar",
             "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/inject/guice/4.2.2/guice-4.2.2.jar",
-            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.5.26/akka-slf4j_2.13-2.5.26.jar",
-            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-streams_2.13/2.7.4/play-streams_2.13-2.7.4.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/28.1-jre/guava-28.1-jre.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.13/1.5.0/twirl-api_2.13-1.5.0.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.13/2.8.0/play-functional_2.13-2.8.0.jar",
             "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-serialization-jackson_2.13/2.6.0/akka-serialization-jackson_2.13-2.6.0.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.29/slf4j-api-1.7.29.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.13/2.8.0/play-json_2.13-2.8.0.jar",
             "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.13/2.7.4/play-akka-http-server_2.13-2.7.4.jar",
-            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.1/joda-time-2.10.1.jar",
-            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.13/1.4.2/twirl-api_2.13-1.4.2.jar",
-            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.5.26/akka-stream_2.13-2.5.26.jar",
-            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/slick/slick-hikaricp_2.13/3.3.2/slick-hikaricp_2.13-3.3.2.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.3.2/error_prone_annotations-2.3.2.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/h2database/h2/1.4.200/h2-1.4.200.jar",
             "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar",
             "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.1.11/akka-http-core_2.13-10.1.11.jar",
-            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.0.0/scala-collection-compat_2.13-2.0.0.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.6.0/akka-actor-typed_2.13-2.6.0.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.18/animal-sniffer-annotations-1.18.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3.jar",
             "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar",
             "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar",
-            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar",
-            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/27.1-jre/guava-27.1-jre.jar",
-            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.10.1/jackson-core-2.10.1.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/zaxxer/HikariCP/3.2.0/HikariCP-3.2.0.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/slick/slick_2.13/3.3.2/slick_2.13-3.3.2.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.0/akka-actor_2.13-2.6.0.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-streams_2.13/2.8.0-RC2/play-streams_2.13-2.8.0-RC2.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.0-RC2/play_2.13-2.8.0-RC2.jar",
             "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
-            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.jar",
-            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/build-link/2.7.4/build-link-2.7.4.jar",
-            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.jar",
-            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.7.4/play_2.13-2.7.4.jar",
-            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.5.26/akka-actor_2.13-2.5.26.jar",
-            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.13/2.5.26/akka-protobuf_2.13-2.5.26.jar",
-            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10.jar",
-            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.7.4/play-exceptions-2.7.4.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.0/akka-protobuf-v3_2.13-2.6.0.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.13/2.8.0-RC2/play-jdbc-api_2.13-2.8.0-RC2.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.1/jackson-annotations-2.10.1.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.10.0/jackson-module-parameter-names-2.10.0.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.13/2.10.0/jackson-module-scala_2.13-2.10.0.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.1/jackson-datatype-jsr310-2.10.1.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.0/akka-stream_2.13-2.6.0.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/2.8.1/checker-qual-2.8.1.jar",
             "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.10.0/jackson-module-paranamer-2.10.0.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.10.0/protobuf-java-3.10.0.jar",
             "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-guice_2.13/2.7.4/play-guice_2.13-2.7.4.jar",
             "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.1.11/akka-parsing_2.13-10.1.11.jar",
             "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.13/2.7.4/filters-helpers_2.13-2.7.4.jar",
             "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0.jar",
-            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.3.3/config-1.3.3.jar",
-            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.3.8/ssl-config-core_2.13-0.3.8.jar",
-            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.10/jackson-datatype-jsr310-2.9.10.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-slick_2.13/5.0.0-RC2/play-slick_2.13-5.0.0-RC2.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.29/jul-to-slf4j-1.7.29.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-slick-evolutions_2.13/5.0.0-RC2/play-slick-evolutions_2.13-5.0.0-RC2.jar",
             "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-logback_2.13/2.7.4/play-logback_2.13-2.7.4.jar",
-            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.26/jul-to-slf4j-1.7.26.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.10.0/jackson-dataformat-cbor-2.10.0.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/build-link/2.8.0-RC2/build-link-2.8.0-RC2.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.8.0-RC2/play-exceptions-2.8.0-RC2.jar",
             "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar",
-            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar",
             "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
             "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-server_2.13/2.7.4/play-server_2.13-2.7.4.jar",
-            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/transaction/jta/1.1/jta-1.1.jar"
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar",
+            "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.1/jackson-databind-2.10.1.jar"
         ],
         "out" : "/home/serge/CODING/scala/phone-book/.bloop/root",
         "classesDir" : "/home/serge/CODING/scala/phone-book/.bloop/root/scala-2.13/classes",
@@ -180,36 +197,87 @@
                     ]
                 },
                 {
-                    "organization" : "com.fasterxml.jackson.datatype",
-                    "name" : "jackson-datatype-jdk8",
-                    "version" : "2.9.10",
+                    "organization" : "org.reactivestreams",
+                    "name" : "reactive-streams",
+                    "version" : "1.0.3",
                     "configurations" : "default",
                     "artifacts" : [
                         {
-                            "name" : "jackson-datatype-jdk8",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.10/jackson-datatype-jdk8-2.9.10.jar"
+                            "name" : "reactive-streams",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar"
                         },
                         {
-                            "name" : "jackson-datatype-jdk8",
+                            "name" : "reactive-streams",
                             "classifier" : "sources",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.10/jackson-datatype-jdk8-2.9.10-sources.jar"
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3-sources.jar"
                         }
                     ]
                 },
                 {
-                    "organization" : "com.fasterxml.jackson.core",
-                    "name" : "jackson-databind",
-                    "version" : "2.9.10.1",
+                    "organization" : "com.google.guava",
+                    "name" : "guava",
+                    "version" : "28.1-jre",
                     "configurations" : "default",
                     "artifacts" : [
                         {
-                            "name" : "jackson-databind",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1.jar"
+                            "name" : "guava",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/28.1-jre/guava-28.1-jre.jar"
                         },
                         {
-                            "name" : "jackson-databind",
+                            "name" : "guava",
                             "classifier" : "sources",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1-sources.jar"
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/28.1-jre/guava-28.1-jre-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe.akka",
+                    "name" : "akka-slf4j_2.13",
+                    "version" : "2.6.0",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "akka-slf4j_2.13",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.0/akka-slf4j_2.13-2.6.0.jar"
+                        },
+                        {
+                            "name" : "akka-slf4j_2.13",
+                            "classifier" : "sources",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.0/akka-slf4j_2.13-2.6.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.fasterxml.jackson.datatype",
+                    "name" : "jackson-datatype-jdk8",
+                    "version" : "2.10.1",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "jackson-datatype-jdk8",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.1/jackson-datatype-jdk8-2.10.1.jar"
+                        },
+                        {
+                            "name" : "jackson-datatype-jdk8",
+                            "classifier" : "sources",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.1/jackson-datatype-jdk8-2.10.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe.play",
+                    "name" : "play-jdbc-evolutions_2.13",
+                    "version" : "2.8.0-RC2",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "play-jdbc-evolutions_2.13",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-jdbc-evolutions_2.13/2.8.0-RC2/play-jdbc-evolutions_2.13-2.8.0-RC2.jar"
+                        },
+                        {
+                            "name" : "play-jdbc-evolutions_2.13",
+                            "classifier" : "sources",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-jdbc-evolutions_2.13/2.8.0-RC2/play-jdbc-evolutions_2.13-2.8.0-RC2-sources.jar"
                         }
                     ]
                 },
@@ -227,40 +295,6 @@
                             "name" : "scala-xml_2.13",
                             "classifier" : "sources",
                             "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization" : "com.typesafe.play",
-                    "name" : "play-json_2.13",
-                    "version" : "2.7.4",
-                    "configurations" : "default",
-                    "artifacts" : [
-                        {
-                            "name" : "play-json_2.13",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.13/2.7.4/play-json_2.13-2.7.4.jar"
-                        },
-                        {
-                            "name" : "play-json_2.13",
-                            "classifier" : "sources",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.13/2.7.4/play-json_2.13-2.7.4-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization" : "javax.activation",
-                    "name" : "javax.activation-api",
-                    "version" : "1.2.0",
-                    "configurations" : "default",
-                    "artifacts" : [
-                        {
-                            "name" : "javax.activation-api",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar"
-                        },
-                        {
-                            "name" : "javax.activation-api",
-                            "classifier" : "sources",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0-sources.jar"
                         }
                     ]
                 },
@@ -299,19 +333,19 @@
                     ]
                 },
                 {
-                    "organization" : "com.typesafe.play",
-                    "name" : "play-functional_2.13",
-                    "version" : "2.7.4",
+                    "organization" : "com.typesafe",
+                    "name" : "ssl-config-core_2.13",
+                    "version" : "0.4.1",
                     "configurations" : "default",
                     "artifacts" : [
                         {
-                            "name" : "play-functional_2.13",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.13/2.7.4/play-functional_2.13-2.7.4.jar"
+                            "name" : "ssl-config-core_2.13",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.1/ssl-config-core_2.13-0.4.1.jar"
                         },
                         {
-                            "name" : "play-functional_2.13",
+                            "name" : "ssl-config-core_2.13",
                             "classifier" : "sources",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.13/2.7.4/play-functional_2.13-2.7.4-sources.jar"
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.1/ssl-config-core_2.13-0.4.1-sources.jar"
                         }
                     ]
                 },
@@ -333,36 +367,19 @@
                     ]
                 },
                 {
-                    "organization" : "org.codehaus.mojo",
-                    "name" : "animal-sniffer-annotations",
-                    "version" : "1.17",
-                    "configurations" : "default",
-                    "artifacts" : [
-                        {
-                            "name" : "animal-sniffer-annotations",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar"
-                        },
-                        {
-                            "name" : "animal-sniffer-annotations",
-                            "classifier" : "sources",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17-sources.jar"
-                        }
-                    ]
-                },
-                {
                     "organization" : "org.slf4j",
                     "name" : "jcl-over-slf4j",
-                    "version" : "1.7.26",
+                    "version" : "1.7.29",
                     "configurations" : "default",
                     "artifacts" : [
                         {
                             "name" : "jcl-over-slf4j",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.26/jcl-over-slf4j-1.7.26.jar"
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.29/jcl-over-slf4j-1.7.29.jar"
                         },
                         {
                             "name" : "jcl-over-slf4j",
                             "classifier" : "sources",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.26/jcl-over-slf4j-1.7.26-sources.jar"
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.29/jcl-over-slf4j-1.7.29-sources.jar"
                         }
                     ]
                 },
@@ -401,36 +418,36 @@
                     ]
                 },
                 {
-                    "organization" : "com.typesafe.akka",
-                    "name" : "akka-slf4j_2.13",
-                    "version" : "2.5.26",
+                    "organization" : "com.typesafe.play",
+                    "name" : "twirl-api_2.13",
+                    "version" : "1.5.0",
                     "configurations" : "default",
                     "artifacts" : [
                         {
-                            "name" : "akka-slf4j_2.13",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.5.26/akka-slf4j_2.13-2.5.26.jar"
+                            "name" : "twirl-api_2.13",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.13/1.5.0/twirl-api_2.13-1.5.0.jar"
                         },
                         {
-                            "name" : "akka-slf4j_2.13",
+                            "name" : "twirl-api_2.13",
                             "classifier" : "sources",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.5.26/akka-slf4j_2.13-2.5.26-sources.jar"
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.13/1.5.0/twirl-api_2.13-1.5.0-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization" : "com.typesafe.play",
-                    "name" : "play-streams_2.13",
-                    "version" : "2.7.4",
+                    "name" : "play-functional_2.13",
+                    "version" : "2.8.0",
                     "configurations" : "default",
                     "artifacts" : [
                         {
-                            "name" : "play-streams_2.13",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-streams_2.13/2.7.4/play-streams_2.13-2.7.4.jar"
+                            "name" : "play-functional_2.13",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.13/2.8.0/play-functional_2.13-2.8.0.jar"
                         },
                         {
-                            "name" : "play-streams_2.13",
+                            "name" : "play-functional_2.13",
                             "classifier" : "sources",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-streams_2.13/2.7.4/play-streams_2.13-2.7.4-sources.jar"
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.13/2.8.0/play-functional_2.13-2.8.0-sources.jar"
                         }
                     ]
                 },
@@ -452,6 +469,57 @@
                     ]
                 },
                 {
+                    "organization" : "com.typesafe.akka",
+                    "name" : "akka-serialization-jackson_2.13",
+                    "version" : "2.6.0",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "akka-serialization-jackson_2.13",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-serialization-jackson_2.13/2.6.0/akka-serialization-jackson_2.13-2.6.0.jar"
+                        },
+                        {
+                            "name" : "akka-serialization-jackson_2.13",
+                            "classifier" : "sources",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-serialization-jackson_2.13/2.6.0/akka-serialization-jackson_2.13-2.6.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.slf4j",
+                    "name" : "slf4j-api",
+                    "version" : "1.7.29",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "slf4j-api",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.29/slf4j-api-1.7.29.jar"
+                        },
+                        {
+                            "name" : "slf4j-api",
+                            "classifier" : "sources",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.29/slf4j-api-1.7.29-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe.play",
+                    "name" : "play-json_2.13",
+                    "version" : "2.8.0",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "play-json_2.13",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.13/2.8.0/play-json_2.13-2.8.0.jar"
+                        },
+                        {
+                            "name" : "play-json_2.13",
+                            "classifier" : "sources",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.13/2.8.0/play-json_2.13-2.8.0-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization" : "com.typesafe.play",
                     "name" : "play-akka-http-server_2.13",
                     "version" : "2.7.4",
@@ -469,70 +537,53 @@
                     ]
                 },
                 {
-                    "organization" : "joda-time",
-                    "name" : "joda-time",
-                    "version" : "2.10.1",
+                    "organization" : "com.typesafe.slick",
+                    "name" : "slick-hikaricp_2.13",
+                    "version" : "3.3.2",
                     "configurations" : "default",
                     "artifacts" : [
                         {
-                            "name" : "joda-time",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.1/joda-time-2.10.1.jar"
+                            "name" : "slick-hikaricp_2.13",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/slick/slick-hikaricp_2.13/3.3.2/slick-hikaricp_2.13-3.3.2.jar"
                         },
                         {
-                            "name" : "joda-time",
+                            "name" : "slick-hikaricp_2.13",
                             "classifier" : "sources",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.1/joda-time-2.10.1-sources.jar"
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/slick/slick-hikaricp_2.13/3.3.2/slick-hikaricp_2.13-3.3.2-sources.jar"
                         }
                     ]
                 },
                 {
-                    "organization" : "com.typesafe.play",
-                    "name" : "twirl-api_2.13",
-                    "version" : "1.4.2",
+                    "organization" : "com.google.errorprone",
+                    "name" : "error_prone_annotations",
+                    "version" : "2.3.2",
                     "configurations" : "default",
                     "artifacts" : [
                         {
-                            "name" : "twirl-api_2.13",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.13/1.4.2/twirl-api_2.13-1.4.2.jar"
+                            "name" : "error_prone_annotations",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.3.2/error_prone_annotations-2.3.2.jar"
                         },
                         {
-                            "name" : "twirl-api_2.13",
+                            "name" : "error_prone_annotations",
                             "classifier" : "sources",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.13/1.4.2/twirl-api_2.13-1.4.2-sources.jar"
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.3.2/error_prone_annotations-2.3.2-sources.jar"
                         }
                     ]
                 },
                 {
-                    "organization" : "com.typesafe.akka",
-                    "name" : "akka-stream_2.13",
-                    "version" : "2.5.26",
+                    "organization" : "com.h2database",
+                    "name" : "h2",
+                    "version" : "1.4.200",
                     "configurations" : "default",
                     "artifacts" : [
                         {
-                            "name" : "akka-stream_2.13",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.5.26/akka-stream_2.13-2.5.26.jar"
+                            "name" : "h2",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/h2database/h2/1.4.200/h2-1.4.200.jar"
                         },
                         {
-                            "name" : "akka-stream_2.13",
+                            "name" : "h2",
                             "classifier" : "sources",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.5.26/akka-stream_2.13-2.5.26-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization" : "com.fasterxml.jackson.core",
-                    "name" : "jackson-annotations",
-                    "version" : "2.9.10",
-                    "configurations" : "default",
-                    "artifacts" : [
-                        {
-                            "name" : "jackson-annotations",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10.jar"
-                        },
-                        {
-                            "name" : "jackson-annotations",
-                            "classifier" : "sources",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10-sources.jar"
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/h2database/h2/1.4.200/h2-1.4.200-sources.jar"
                         }
                     ]
                 },
@@ -554,19 +605,70 @@
                     ]
                 },
                 {
-                    "organization" : "com.google.j2objc",
-                    "name" : "j2objc-annotations",
-                    "version" : "1.1",
+                    "organization" : "org.scala-lang.modules",
+                    "name" : "scala-collection-compat_2.13",
+                    "version" : "2.0.0",
                     "configurations" : "default",
                     "artifacts" : [
                         {
-                            "name" : "j2objc-annotations",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar"
+                            "name" : "scala-collection-compat_2.13",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.0.0/scala-collection-compat_2.13-2.0.0.jar"
                         },
                         {
-                            "name" : "j2objc-annotations",
+                            "name" : "scala-collection-compat_2.13",
                             "classifier" : "sources",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1-sources.jar"
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.0.0/scala-collection-compat_2.13-2.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe.akka",
+                    "name" : "akka-actor-typed_2.13",
+                    "version" : "2.6.0",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "akka-actor-typed_2.13",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.6.0/akka-actor-typed_2.13-2.6.0.jar"
+                        },
+                        {
+                            "name" : "akka-actor-typed_2.13",
+                            "classifier" : "sources",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.6.0/akka-actor-typed_2.13-2.6.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.codehaus.mojo",
+                    "name" : "animal-sniffer-annotations",
+                    "version" : "1.18",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "animal-sniffer-annotations",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.18/animal-sniffer-annotations-1.18.jar"
+                        },
+                        {
+                            "name" : "animal-sniffer-annotations",
+                            "classifier" : "sources",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.18/animal-sniffer-annotations-1.18-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "jakarta.transaction",
+                    "name" : "jakarta.transaction-api",
+                    "version" : "1.3.3",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "jakarta.transaction-api",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3.jar"
+                        },
+                        {
+                            "name" : "jakarta.transaction-api",
+                            "classifier" : "sources",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3-sources.jar"
                         }
                     ]
                 },
@@ -605,53 +707,172 @@
                     ]
                 },
                 {
-                    "organization" : "org.checkerframework",
-                    "name" : "checker-qual",
-                    "version" : "2.5.2",
+                    "organization" : "com.fasterxml.jackson.core",
+                    "name" : "jackson-core",
+                    "version" : "2.10.1",
                     "configurations" : "default",
                     "artifacts" : [
                         {
-                            "name" : "checker-qual",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar"
+                            "name" : "jackson-core",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.10.1/jackson-core-2.10.1.jar"
                         },
                         {
-                            "name" : "checker-qual",
+                            "name" : "jackson-core",
                             "classifier" : "sources",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2-sources.jar"
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.10.1/jackson-core-2.10.1-sources.jar"
                         }
                     ]
                 },
                 {
-                    "organization" : "com.google.guava",
-                    "name" : "guava",
-                    "version" : "27.1-jre",
+                    "organization" : "com.zaxxer",
+                    "name" : "HikariCP",
+                    "version" : "3.2.0",
                     "configurations" : "default",
                     "artifacts" : [
                         {
-                            "name" : "guava",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/27.1-jre/guava-27.1-jre.jar"
+                            "name" : "HikariCP",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/zaxxer/HikariCP/3.2.0/HikariCP-3.2.0.jar"
                         },
                         {
-                            "name" : "guava",
+                            "name" : "HikariCP",
                             "classifier" : "sources",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/27.1-jre/guava-27.1-jre-sources.jar"
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/zaxxer/HikariCP/3.2.0/HikariCP-3.2.0-sources.jar"
                         }
                     ]
                 },
                 {
-                    "organization" : "org.slf4j",
-                    "name" : "slf4j-api",
-                    "version" : "1.7.26",
+                    "organization" : "com.typesafe.slick",
+                    "name" : "slick_2.13",
+                    "version" : "3.3.2",
                     "configurations" : "default",
                     "artifacts" : [
                         {
-                            "name" : "slf4j-api",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar"
+                            "name" : "slick_2.13",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/slick/slick_2.13/3.3.2/slick_2.13-3.3.2.jar"
                         },
                         {
-                            "name" : "slf4j-api",
+                            "name" : "slick_2.13",
                             "classifier" : "sources",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26-sources.jar"
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/slick/slick_2.13/3.3.2/slick_2.13-3.3.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe.akka",
+                    "name" : "akka-actor_2.13",
+                    "version" : "2.6.0",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "akka-actor_2.13",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.0/akka-actor_2.13-2.6.0.jar"
+                        },
+                        {
+                            "name" : "akka-actor_2.13",
+                            "classifier" : "sources",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.0/akka-actor_2.13-2.6.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "jakarta.activation",
+                    "name" : "jakarta.activation-api",
+                    "version" : "1.2.1",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "jakarta.activation-api",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar"
+                        },
+                        {
+                            "name" : "jakarta.activation-api",
+                            "classifier" : "sources",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe",
+                    "name" : "config",
+                    "version" : "1.4.0",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "config",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0.jar"
+                        },
+                        {
+                            "name" : "config",
+                            "classifier" : "sources",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.thoughtworks.paranamer",
+                    "name" : "paranamer",
+                    "version" : "2.8",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "paranamer",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar"
+                        },
+                        {
+                            "name" : "paranamer",
+                            "classifier" : "sources",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.google.j2objc",
+                    "name" : "j2objc-annotations",
+                    "version" : "1.3",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "j2objc-annotations",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar"
+                        },
+                        {
+                            "name" : "j2objc-annotations",
+                            "classifier" : "sources",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe.play",
+                    "name" : "play-streams_2.13",
+                    "version" : "2.8.0-RC2",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "play-streams_2.13",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-streams_2.13/2.8.0-RC2/play-streams_2.13-2.8.0-RC2.jar"
+                        },
+                        {
+                            "name" : "play-streams_2.13",
+                            "classifier" : "sources",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-streams_2.13/2.8.0-RC2/play-streams_2.13-2.8.0-RC2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe.play",
+                    "name" : "play_2.13",
+                    "version" : "2.8.0-RC2",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "play_2.13",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.0-RC2/play_2.13-2.8.0-RC2.jar"
+                        },
+                        {
+                            "name" : "play_2.13",
+                            "classifier" : "sources",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.0-RC2/play_2.13-2.8.0-RC2-sources.jar"
                         }
                     ]
                 },
@@ -668,138 +889,138 @@
                     ]
                 },
                 {
-                    "organization" : "com.google.errorprone",
-                    "name" : "error_prone_annotations",
-                    "version" : "2.2.0",
+                    "organization" : "com.typesafe.akka",
+                    "name" : "akka-protobuf-v3_2.13",
+                    "version" : "2.6.0",
                     "configurations" : "default",
                     "artifacts" : [
                         {
-                            "name" : "error_prone_annotations",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.jar"
+                            "name" : "akka-protobuf-v3_2.13",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.0/akka-protobuf-v3_2.13-2.6.0.jar"
                         },
                         {
-                            "name" : "error_prone_annotations",
+                            "name" : "akka-protobuf-v3_2.13",
                             "classifier" : "sources",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0-sources.jar"
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.0/akka-protobuf-v3_2.13-2.6.0-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization" : "com.typesafe.play",
-                    "name" : "build-link",
-                    "version" : "2.7.4",
+                    "name" : "play-jdbc-api_2.13",
+                    "version" : "2.8.0-RC2",
                     "configurations" : "default",
                     "artifacts" : [
                         {
-                            "name" : "build-link",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/build-link/2.7.4/build-link-2.7.4.jar"
+                            "name" : "play-jdbc-api_2.13",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.13/2.8.0-RC2/play-jdbc-api_2.13-2.8.0-RC2.jar"
                         },
                         {
-                            "name" : "build-link",
+                            "name" : "play-jdbc-api_2.13",
                             "classifier" : "sources",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/build-link/2.7.4/build-link-2.7.4-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization" : "org.reactivestreams",
-                    "name" : "reactive-streams",
-                    "version" : "1.0.2",
-                    "configurations" : "default",
-                    "artifacts" : [
-                        {
-                            "name" : "reactive-streams",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.jar"
-                        },
-                        {
-                            "name" : "reactive-streams",
-                            "classifier" : "sources",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization" : "com.typesafe.play",
-                    "name" : "play_2.13",
-                    "version" : "2.7.4",
-                    "configurations" : "default",
-                    "artifacts" : [
-                        {
-                            "name" : "play_2.13",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.7.4/play_2.13-2.7.4.jar"
-                        },
-                        {
-                            "name" : "play_2.13",
-                            "classifier" : "sources",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.7.4/play_2.13-2.7.4-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization" : "com.typesafe.akka",
-                    "name" : "akka-actor_2.13",
-                    "version" : "2.5.26",
-                    "configurations" : "default",
-                    "artifacts" : [
-                        {
-                            "name" : "akka-actor_2.13",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.5.26/akka-actor_2.13-2.5.26.jar"
-                        },
-                        {
-                            "name" : "akka-actor_2.13",
-                            "classifier" : "sources",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.5.26/akka-actor_2.13-2.5.26-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization" : "com.typesafe.akka",
-                    "name" : "akka-protobuf_2.13",
-                    "version" : "2.5.26",
-                    "configurations" : "default",
-                    "artifacts" : [
-                        {
-                            "name" : "akka-protobuf_2.13",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.13/2.5.26/akka-protobuf_2.13-2.5.26.jar"
-                        },
-                        {
-                            "name" : "akka-protobuf_2.13",
-                            "classifier" : "sources",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.13/2.5.26/akka-protobuf_2.13-2.5.26-sources.jar"
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.13/2.8.0-RC2/play-jdbc-api_2.13-2.8.0-RC2-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization" : "com.fasterxml.jackson.core",
-                    "name" : "jackson-core",
-                    "version" : "2.9.10",
+                    "name" : "jackson-annotations",
+                    "version" : "2.10.1",
                     "configurations" : "default",
                     "artifacts" : [
                         {
-                            "name" : "jackson-core",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10.jar"
+                            "name" : "jackson-annotations",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.1/jackson-annotations-2.10.1.jar"
                         },
                         {
-                            "name" : "jackson-core",
+                            "name" : "jackson-annotations",
                             "classifier" : "sources",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10-sources.jar"
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.1/jackson-annotations-2.10.1-sources.jar"
                         }
                     ]
                 },
                 {
-                    "organization" : "com.typesafe.play",
-                    "name" : "play-exceptions",
-                    "version" : "2.7.4",
+                    "organization" : "com.fasterxml.jackson.module",
+                    "name" : "jackson-module-parameter-names",
+                    "version" : "2.10.0",
                     "configurations" : "default",
                     "artifacts" : [
                         {
-                            "name" : "play-exceptions",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.7.4/play-exceptions-2.7.4.jar"
+                            "name" : "jackson-module-parameter-names",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.10.0/jackson-module-parameter-names-2.10.0.jar"
                         },
                         {
-                            "name" : "play-exceptions",
+                            "name" : "jackson-module-parameter-names",
                             "classifier" : "sources",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.7.4/play-exceptions-2.7.4-sources.jar"
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.10.0/jackson-module-parameter-names-2.10.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.fasterxml.jackson.module",
+                    "name" : "jackson-module-scala_2.13",
+                    "version" : "2.10.0",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "jackson-module-scala_2.13",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.13/2.10.0/jackson-module-scala_2.13-2.10.0.jar"
+                        },
+                        {
+                            "name" : "jackson-module-scala_2.13",
+                            "classifier" : "sources",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.13/2.10.0/jackson-module-scala_2.13-2.10.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.fasterxml.jackson.datatype",
+                    "name" : "jackson-datatype-jsr310",
+                    "version" : "2.10.1",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "jackson-datatype-jsr310",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.1/jackson-datatype-jsr310-2.10.1.jar"
+                        },
+                        {
+                            "name" : "jackson-datatype-jsr310",
+                            "classifier" : "sources",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.1/jackson-datatype-jsr310-2.10.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe.akka",
+                    "name" : "akka-stream_2.13",
+                    "version" : "2.6.0",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "akka-stream_2.13",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.0/akka-stream_2.13-2.6.0.jar"
+                        },
+                        {
+                            "name" : "akka-stream_2.13",
+                            "classifier" : "sources",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.0/akka-stream_2.13-2.6.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.checkerframework",
+                    "name" : "checker-qual",
+                    "version" : "2.8.1",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "checker-qual",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/2.8.1/checker-qual-2.8.1.jar"
+                        },
+                        {
+                            "name" : "checker-qual",
+                            "classifier" : "sources",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/2.8.1/checker-qual-2.8.1-sources.jar"
                         }
                     ]
                 },
@@ -817,6 +1038,40 @@
                             "name" : "javax.inject",
                             "classifier" : "sources",
                             "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.fasterxml.jackson.module",
+                    "name" : "jackson-module-paranamer",
+                    "version" : "2.10.0",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "jackson-module-paranamer",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.10.0/jackson-module-paranamer-2.10.0.jar"
+                        },
+                        {
+                            "name" : "jackson-module-paranamer",
+                            "classifier" : "sources",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.10.0/jackson-module-paranamer-2.10.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.google.protobuf",
+                    "name" : "protobuf-java",
+                    "version" : "3.10.0",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "protobuf-java",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.10.0/protobuf-java-3.10.0.jar"
+                        },
+                        {
+                            "name" : "protobuf-java",
+                            "classifier" : "sources",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.10.0/protobuf-java-3.10.0-sources.jar"
                         }
                     ]
                 },
@@ -889,53 +1144,53 @@
                     ]
                 },
                 {
-                    "organization" : "com.typesafe",
-                    "name" : "config",
-                    "version" : "1.3.3",
+                    "organization" : "com.typesafe.play",
+                    "name" : "play-slick_2.13",
+                    "version" : "5.0.0-RC2",
                     "configurations" : "default",
                     "artifacts" : [
                         {
-                            "name" : "config",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.3.3/config-1.3.3.jar"
+                            "name" : "play-slick_2.13",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-slick_2.13/5.0.0-RC2/play-slick_2.13-5.0.0-RC2.jar"
                         },
                         {
-                            "name" : "config",
+                            "name" : "play-slick_2.13",
                             "classifier" : "sources",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.3.3/config-1.3.3-sources.jar"
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-slick_2.13/5.0.0-RC2/play-slick_2.13-5.0.0-RC2-sources.jar"
                         }
                     ]
                 },
                 {
-                    "organization" : "com.typesafe",
-                    "name" : "ssl-config-core_2.13",
-                    "version" : "0.3.8",
+                    "organization" : "org.slf4j",
+                    "name" : "jul-to-slf4j",
+                    "version" : "1.7.29",
                     "configurations" : "default",
                     "artifacts" : [
                         {
-                            "name" : "ssl-config-core_2.13",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.3.8/ssl-config-core_2.13-0.3.8.jar"
+                            "name" : "jul-to-slf4j",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.29/jul-to-slf4j-1.7.29.jar"
                         },
                         {
-                            "name" : "ssl-config-core_2.13",
+                            "name" : "jul-to-slf4j",
                             "classifier" : "sources",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.3.8/ssl-config-core_2.13-0.3.8-sources.jar"
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.29/jul-to-slf4j-1.7.29-sources.jar"
                         }
                     ]
                 },
                 {
-                    "organization" : "com.fasterxml.jackson.datatype",
-                    "name" : "jackson-datatype-jsr310",
-                    "version" : "2.9.10",
+                    "organization" : "com.typesafe.play",
+                    "name" : "play-slick-evolutions_2.13",
+                    "version" : "5.0.0-RC2",
                     "configurations" : "default",
                     "artifacts" : [
                         {
-                            "name" : "jackson-datatype-jsr310",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.10/jackson-datatype-jsr310-2.9.10.jar"
+                            "name" : "play-slick-evolutions_2.13",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-slick-evolutions_2.13/5.0.0-RC2/play-slick-evolutions_2.13-5.0.0-RC2.jar"
                         },
                         {
-                            "name" : "jackson-datatype-jsr310",
+                            "name" : "play-slick-evolutions_2.13",
                             "classifier" : "sources",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.10/jackson-datatype-jsr310-2.9.10-sources.jar"
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-slick-evolutions_2.13/5.0.0-RC2/play-slick-evolutions_2.13-5.0.0-RC2-sources.jar"
                         }
                     ]
                 },
@@ -957,19 +1212,53 @@
                     ]
                 },
                 {
-                    "organization" : "org.slf4j",
-                    "name" : "jul-to-slf4j",
-                    "version" : "1.7.26",
+                    "organization" : "com.fasterxml.jackson.dataformat",
+                    "name" : "jackson-dataformat-cbor",
+                    "version" : "2.10.0",
                     "configurations" : "default",
                     "artifacts" : [
                         {
-                            "name" : "jul-to-slf4j",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.26/jul-to-slf4j-1.7.26.jar"
+                            "name" : "jackson-dataformat-cbor",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.10.0/jackson-dataformat-cbor-2.10.0.jar"
                         },
                         {
-                            "name" : "jul-to-slf4j",
+                            "name" : "jackson-dataformat-cbor",
                             "classifier" : "sources",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.26/jul-to-slf4j-1.7.26-sources.jar"
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.10.0/jackson-dataformat-cbor-2.10.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe.play",
+                    "name" : "build-link",
+                    "version" : "2.8.0-RC2",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "build-link",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/build-link/2.8.0-RC2/build-link-2.8.0-RC2.jar"
+                        },
+                        {
+                            "name" : "build-link",
+                            "classifier" : "sources",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/build-link/2.8.0-RC2/build-link-2.8.0-RC2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe.play",
+                    "name" : "play-exceptions",
+                    "version" : "2.8.0-RC2",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "play-exceptions",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.8.0-RC2/play-exceptions-2.8.0-RC2.jar"
+                        },
+                        {
+                            "name" : "play-exceptions",
+                            "classifier" : "sources",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.8.0-RC2/play-exceptions-2.8.0-RC2-sources.jar"
                         }
                     ]
                 },
@@ -991,19 +1280,19 @@
                     ]
                 },
                 {
-                    "organization" : "javax.xml.bind",
-                    "name" : "jaxb-api",
-                    "version" : "2.3.1",
+                    "organization" : "jakarta.xml.bind",
+                    "name" : "jakarta.xml.bind-api",
+                    "version" : "2.3.2",
                     "configurations" : "default",
                     "artifacts" : [
                         {
-                            "name" : "jaxb-api",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar"
+                            "name" : "jakarta.xml.bind-api",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar"
                         },
                         {
-                            "name" : "jaxb-api",
+                            "name" : "jakarta.xml.bind-api",
                             "classifier" : "sources",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1-sources.jar"
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2-sources.jar"
                         }
                     ]
                 },
@@ -1042,19 +1331,36 @@
                     ]
                 },
                 {
-                    "organization" : "javax.transaction",
-                    "name" : "jta",
-                    "version" : "1.1",
+                    "organization" : "joda-time",
+                    "name" : "joda-time",
+                    "version" : "2.10.5",
                     "configurations" : "default",
                     "artifacts" : [
                         {
-                            "name" : "jta",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/transaction/jta/1.1/jta-1.1.jar"
+                            "name" : "joda-time",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar"
                         },
                         {
-                            "name" : "jta",
+                            "name" : "joda-time",
                             "classifier" : "sources",
-                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/transaction/jta/1.1/jta-1.1-sources.jar"
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.5/joda-time-2.10.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.fasterxml.jackson.core",
+                    "name" : "jackson-databind",
+                    "version" : "2.10.1",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "jackson-databind",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.1/jackson-databind-2.10.1.jar"
+                        },
+                        {
+                            "name" : "jackson-databind",
+                            "classifier" : "sources",
+                            "path" : "/home/serge/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.1/jackson-databind-2.10.1-sources.jar"
                         }
                     ]
                 },
