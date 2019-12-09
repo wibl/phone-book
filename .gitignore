@@ -1,6 +1,7 @@
 logs
 target
 /.idea
+/.vscode
 /.metals
 /.bloop
 /.g8
@@ -8,4 +9,3 @@ target
 /.classpath
 /.project
 /.settings
-/RUNNING_PID
