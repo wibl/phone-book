@@ -13,17 +13,12 @@ class Storage @Inject()
 
     import profile.api._
 
-    private class RecordTable(tag: Tag) extends Table[Record](tag, "RECORD") {
+    private class RecordTable(tag: Tag) extends Table[Record](tag, "records") {
         
-        def id = column[Long]("ID", O.PrimaryKey, O.AutoInc)
-        def name = column[String]("NAME")
-        def number = column[String]("PHONE")
+        def id = column[Long]("id", O.PrimaryKey, O.AutoInc)
+        def name = column[String]("name")
+        def number = column[String]("number")
 
-        //def * = (id, name, number) <> (Record.tupled, Record.unapply)
-        //def * = (id, name, number) <> ((Record.apply _).tupled, Record.unapply)
-        // def * = id ~ name ~ number <> (
-        //     (id, name, number) => Record(id, PhoneName(name), PhoneNumber(number)),
-        //     (r: Record) => (r.id, r.name.toString, r.number.toString))
         override def * = (id, name, number) <> (apply, unapply)
         def apply(t: (Long, String, String)): Record = Record(t._1, PhoneName(t._2), PhoneNumber(t._3))
         def unapply(r: Record): Option[(Long, String, String)] = Some((r.id, r.name.toString, r.number.toString))    
@@ -33,7 +28,7 @@ class Storage @Inject()
 
     def getAllRecords: Future[Seq[(Record)]] = db.run(records.result)
 
-    def addNewRecord(name: String, number: String) = {
-        db.run(records.map(r => (r.name, r.number)) += (name, number))
+    def addNewRecord(record: Record) = {
+        db.run(records.map(r => (r.name, r.number)) += (record.name.toString(), record.number.toString()))
     }
 }
