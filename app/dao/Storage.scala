@@ -28,7 +28,17 @@ class Storage @Inject()
 
     def getAllRecords: Future[Seq[(Record)]] = db.run(records.result)
 
-    def addNewRecord(record: Record) = {
-        db.run(records.map(r => (r.name, r.number)) += (record.name.toString(), record.number.toString()))
+    def addNewRecord(name: String, number:String) = {
+        db.run(records.map(r => (r.name, r.number)) += (name, number))
+    }
+
+    def updateName(id: Long, name: String) = {
+        val q = for { r <- records if r.id === id } yield r.name
+        db.run(q.update(name))
+    }
+
+    def updateNumber(id: Long, number: String) = {
+        val q = for { r <- records if r.id === id } yield r.number
+        db.run(q.update(number))
     }
 }

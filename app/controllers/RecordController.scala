@@ -13,7 +13,19 @@ class RecordController @Inject()(recordService: RecordService, val controllerCom
   }
 
   def insert(name: String, number: String) = Action.async { implicit request =>
-    recordService.addNewRecord(Record(1, PhoneName(name), PhoneNumber(number))).map(
+    recordService.addNewRecord(name, number).map(
+      result => Redirect(routes.RecordController.list())
+    )
+  }
+
+  def updateName(id: Long, name: String) = Action.async { implicit request =>
+    recordService.updateName(id, name).map(
+      result => Redirect(routes.RecordController.list())
+    )
+  }
+
+  def updateNumber(id: Long, number: String) = Action.async { implicit request =>
+    recordService.updateNumber(id, number).map(
       result => Redirect(routes.RecordController.list())
     )
   }

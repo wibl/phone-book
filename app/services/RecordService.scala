@@ -11,7 +11,15 @@ class RecordService @Inject() (storage: Storage) {
         storage.getAllRecords
     }
 
-    def addNewRecord(record: Record) = {
-        storage.addNewRecord(record)
+    def addNewRecord(name: String, number:String) = {
+        storage.addNewRecord(name, number)
+    }
+
+    def updateName(id: Long, name: String) = {
+        storage.updateName(id, name)
+    }
+
+    def updateNumber(id: Long, number: String) = {
+        storage.updateNumber(id, number)
     }
 }
