@@ -5,11 +5,12 @@ import play.api.mvc.{Action, AnyContent, BaseController, ControllerComponents}
 import services.RecordService
 import scala.concurrent.ExecutionContext.Implicits.global
 import models.{Record, PhoneName, PhoneNumber}
+import play.api.libs.json.Json
 
 class RecordController @Inject()(recordService: RecordService, val controllerComponents: ControllerComponents) extends BaseController {
 
   def list = Action.async { implicit request =>
-    recordService.getAllRecords.map(record => Ok("Result - " + record))
+    recordService.getAllRecords.map(record => Ok(Json.toJson(record)))
   }
 
   def insert(name: String, number: String) = Action.async { implicit request =>
@@ -37,10 +38,10 @@ class RecordController @Inject()(recordService: RecordService, val controllerCom
   }
 
   def getAllByName(name: String) = Action.async { implicit request =>
-    recordService.getAllByName(name).map(record => Ok("Result - " + record))
+    recordService.getAllByName(name).map(record => Ok(Json.toJson(record)))
   }
 
   def getAllByNumber(number: String) = Action.async { implicit request =>
-    recordService.getAllByNumber(number).map(record => Ok("Result - " + record))
+    recordService.getAllByNumber(number).map(record => Ok(Json.toJson(record)))
   }
 }
