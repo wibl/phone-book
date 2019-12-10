@@ -11,8 +11,8 @@ class RecordService @Inject() (storage: Storage) {
         storage.getAllRecords
     }
 
-    def addNewRecord(name: String, number:String) = {
-        storage.addNewRecord(name, number)
+    def addNewRecord(record: Record) = {
+        storage.addNewRecord(record)
     }
 
     def updateName(id: Long, name: String) = {
@@ -33,5 +33,9 @@ class RecordService @Inject() (storage: Storage) {
 
     def getAllByNumber(number: String) = {
         storage.getAllByNumber(number)
+    }
+
+    def getByNameNumber(name: String, number: String): Future[Option[Record]] = {
+        storage.getByNameNumber(name, number)
     }
 }

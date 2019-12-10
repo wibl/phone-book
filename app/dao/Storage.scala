@@ -28,8 +28,8 @@ class Storage @Inject()
 
     def getAllRecords: Future[Seq[Record]] = db.run(records.result)
 
-    def addNewRecord(name: String, number:String) = {
-        db.run(records.map(r => (r.name, r.number)) += (name, number))
+    def addNewRecord(record: Record) = {
+        db.run(records.map(r => (r.name, r.number)) += (record.name.toString(), record.number.toString()))
     }
 
     def updateName(id: Long, name: String) = {
@@ -55,5 +55,10 @@ class Storage @Inject()
     def getAllByNumber(number: String): Future[Seq[Record]] = {
         val q = records.filter(_.number === number)
         db.run(q.result)
+    }
+
+    def getByNameNumber(name: String, number: String): Future[Option[Record]] = {
+        val q = records.filter(_.name === name).filter(_.number === number)
+        db.run(q.result.headOption)
     }
 }

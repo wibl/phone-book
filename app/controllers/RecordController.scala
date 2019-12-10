@@ -7,16 +7,21 @@ import scala.concurrent.ExecutionContext.Implicits.global
 import models.{Record, PhoneName, PhoneNumber}
 import play.api.libs.json.Json
 
-class RecordController @Inject()(recordService: RecordService, val controllerComponents: ControllerComponents) extends BaseController {
+class RecordController @Inject() (recordService: RecordService, val controllerComponents: ControllerComponents) extends BaseController {
 
   def list = Action.async { implicit request =>
     recordService.getAllRecords.map(record => Ok(Json.toJson(record)))
   }
 
   def insert(name: String, number: String) = Action.async { implicit request =>
-    recordService.addNewRecord(name, number).map(
-      result => Redirect(routes.RecordController.list())
-    )
+    recordService.getByNameNumber(name, number).map {
+      case None => {
+        val record: Record = Record(1, PhoneName(name), PhoneNumber(number))
+        recordService.addNewRecord(record)
+        Redirect(routes.RecordController.list())
+      } 
+      case Some(r) => Conflict
+    }
   }
 
   def updateName(id: Long, name: String) = Action.async { implicit request =>
