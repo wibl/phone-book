@@ -29,4 +29,18 @@ class RecordController @Inject()(recordService: RecordService, val controllerCom
       result => Redirect(routes.RecordController.list())
     )
   }
+
+  def deleteRecord(id: Long) = Action.async { implicit request =>
+    recordService.deleteRecord(id).map(
+      result => Redirect(routes.RecordController.list())
+    )
+  }
+
+  def getAllByName(name: String) = Action.async { implicit request =>
+    recordService.getAllByName(name).map(record => Ok("Result - " + record))
+  }
+
+  def getAllByNumber(number: String) = Action.async { implicit request =>
+    recordService.getAllByNumber(number).map(record => Ok("Result - " + record))
+  }
 }

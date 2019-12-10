@@ -26,7 +26,7 @@ class Storage @Inject()
 
     private val records = TableQuery[RecordTable]
 
-    def getAllRecords: Future[Seq[(Record)]] = db.run(records.result)
+    def getAllRecords: Future[Seq[Record]] = db.run(records.result)
 
     def addNewRecord(name: String, number:String) = {
         db.run(records.map(r => (r.name, r.number)) += (name, number))
@@ -40,5 +40,20 @@ class Storage @Inject()
     def updateNumber(id: Long, number: String) = {
         val q = for { r <- records if r.id === id } yield r.number
         db.run(q.update(number))
+    }
+
+    def deleteRecord(id: Long) = {
+        val q = records.filter(_.id === id)
+        db.run(q.delete)
+    }
+
+    def getAllByName(name: String): Future[Seq[Record]] = {
+        val q = records.filter(_.name === name)
+        db.run(q.result)
+    }
+
+    def getAllByNumber(number: String): Future[Seq[Record]] = {
+        val q = records.filter(_.number === number)
+        db.run(q.result)
     }
 }
