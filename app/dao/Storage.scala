@@ -26,20 +26,19 @@ class Storage @Inject()
 
     private val records = TableQuery[RecordTable]
 
-    def getAllRecords: Future[Seq[Record]] = db.run(records.result)
-
-    def addNewRecord(record: Record) = {
-        db.run(records.map(r => (r.name, r.number)) += (record.name.toString(), record.number.toString()))
+    def getAllRecords: Future[Seq[Record]] = {
+        val q = records.sortBy(r => (r.id))
+        db.run(q.result)
     }
 
-    def updateName(id: Long, name: String) = {
-        val q = for { r <- records if r.id === id } yield r.name
-        db.run(q.update(name))
+    def addNewRecord(record: Record): Future[Record] = {
+        val q = (records returning records) += record
+        db.run(q)
     }
 
-    def updateNumber(id: Long, number: String) = {
-        val q = for { r <- records if r.id === id } yield r.number
-        db.run(q.update(number))
+    def updateRecord(record: Record) = {
+        val q = records.filter(_.id === record.id).map(r => (r.name, r.number))
+        db.run(q.update(record.name.toString(), record.number.toString()))
     }
 
     def deleteRecord(id: Long) = {
@@ -48,17 +47,24 @@ class Storage @Inject()
     }
 
     def getAllByName(name: String): Future[Seq[Record]] = {
-        val q = records.filter(_.name === name)
+        val q = records.filter(_.name === name).sortBy(r => (r.id))
         db.run(q.result)
     }
 
     def getAllByNumber(number: String): Future[Seq[Record]] = {
-        val q = records.filter(_.number === number)
+        val q = records.filter(_.number === number).sortBy(r => (r.id))
         db.run(q.result)
     }
 
-    def getByNameNumber(name: String, number: String): Future[Option[Record]] = {
-        val q = records.filter(_.name === name).filter(_.number === number)
+    def findRecord(record: Record): Future[Option[Record]] = {
+        val q = records
+            .filter(_.name === record.name.toString())
+            .filter(_.number === record.number.toString())
+        db.run(q.result.headOption)
+    }
+
+    def getById(id: Long): Future[Option[Record]] = {
+        val q = records.filter(_.id === id)
         db.run(q.result.headOption)
     }
 }

@@ -1,11 +1,13 @@
 package controllers
 
 import javax.inject.Inject
-import play.api.mvc.{Action, AnyContent, BaseController, ControllerComponents}
+import play.api.mvc._
 import services.RecordService
 import scala.concurrent.ExecutionContext.Implicits.global
 import models.{Record, PhoneName, PhoneNumber}
-import play.api.libs.json.Json
+import play.api.libs.json._
+import views.html.defaultpages.error
+import scala.concurrent.Future
 
 class RecordController @Inject() (recordService: RecordService, val controllerComponents: ControllerComponents) extends BaseController {
 
@@ -13,33 +15,26 @@ class RecordController @Inject() (recordService: RecordService, val controllerCo
     recordService.getAllRecords.map(record => Ok(Json.toJson(record)))
   }
 
-  def insert(name: String, number: String) = Action.async { implicit request =>
-    recordService.getByNameNumber(name, number).map {
-      case None => {
-        val record: Record = Record(1, PhoneName(name), PhoneNumber(number))
-        recordService.addNewRecord(record)
-        Redirect(routes.RecordController.list())
-      } 
-      case Some(r) => Conflict
+  def insert = Action.async(parse.json) { implicit request =>
+    unmarshalJsValue(request) { record: Record =>
+      recordService.addNewRecord(record).map {
+        case None => Conflict
+        case Some(r) => Created(Json.toJson(r))
+      }
     }
   }
 
-  def updateName(id: Long, name: String) = Action.async { implicit request =>
-    recordService.updateName(id, name).map(
-      result => Redirect(routes.RecordController.list())
-    )
-  }
-
-  def updateNumber(id: Long, number: String) = Action.async { implicit request =>
-    recordService.updateNumber(id, number).map(
-      result => Redirect(routes.RecordController.list())
-    )
+  def updateRecord = Action.async(parse.json) { implicit request =>
+    unmarshalJsValue(request) { record: Record =>
+      recordService.updateRecord(record).map(
+        r => Ok(Json.toJson(r))
+      )
+    }
   }
 
   def deleteRecord(id: Long) = Action.async { implicit request =>
-    recordService.deleteRecord(id).map(
-      result => Redirect(routes.RecordController.list())
-    )
+    recordService.deleteRecord(id)
+    Future.successful(NoContent)    
   }
 
   def getAllByName(name: String) = Action.async { implicit request =>
@@ -48,5 +43,14 @@ class RecordController @Inject() (recordService: RecordService, val controllerCo
 
   def getAllByNumber(number: String) = Action.async { implicit request =>
     recordService.getAllByNumber(number).map(record => Ok(Json.toJson(record)))
+  }
+  
+  def unmarshalJsValue[R](request: Request[JsValue])(block: R => Future[Result])(implicit rds : Reads[R]): Future[Result] = {
+    request.body.validate[R](rds).fold(
+      valid = block,
+      invalid = e => {
+        Future.successful(BadRequest("JsonError - " + e.toString()))
+      }
+    )
   }
 }

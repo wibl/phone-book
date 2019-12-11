@@ -8,12 +8,11 @@ GET     /                           controllers.HomeController.index
 
 # Record controller
 GET     /phones                     controllers.RecordController.list
-POST    /phone/:name/:number        controllers.RecordController.insert(name: String, number: String)
-PUT     /updatename/:id/:name       controllers.RecordController.updateName(id: Long, name: String)
-PUT     /updatenumber/:id/:number   controllers.RecordController.updateNumber(id: Long, number: String)
-DELETE  /delete/:id                 controllers.RecordController.deleteRecord(id: Long)
-GET     /getAllByName/:name         controllers.RecordController.getAllByName(name: String)
-GET     /getAllByNumber/:number     controllers.RecordController.getAllByNumber(number: String)
+POST    /phone                      controllers.RecordController.insert
+PUT     /phone                      controllers.RecordController.updateRecord
+DELETE  /phone/:id                  controllers.RecordController.deleteRecord(id: Long)
+GET     /phonesByName/:name         controllers.RecordController.getAllByName(name: String)
+GET     /phonesByNumber/:number     controllers.RecordController.getAllByNumber(number: String)
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
