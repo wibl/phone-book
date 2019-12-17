@@ -8,9 +8,9 @@ GET     /                           controllers.Assets.at(path="/public", file="
 
 # Record controller
 GET     /phones                     controllers.RecordController.list
-POST    /phone                      controllers.RecordController.insert
-PUT     /phone                      controllers.RecordController.updateRecord
-DELETE  /phone/:id                  controllers.RecordController.deleteRecord(id: Long)
+POST    /phones                     controllers.RecordController.insert
+PUT     /phones                     controllers.RecordController.updateRecord
+DELETE  /phones/:id                 controllers.RecordController.deleteRecord(id: Long)
 GET     /phonesByName/:name         controllers.RecordController.getAllByName(name: String)
 GET     /phonesByNumber/:number     controllers.RecordController.getAllByNumber(number: String)
 

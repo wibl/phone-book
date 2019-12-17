@@ -6,16 +6,7 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    records: [/*{
-      id: 1, 
-      name: "Petrov",
-      number: "+79111111111"
-    },
-    {
-      id: 2, 
-      name: "Sidorov",
-      number: "+79111111112"
-    }*/]
+    records: []
   },
   mutations: {
     deleteRecord(state, id) {
@@ -35,19 +26,21 @@ export default new Vuex.Store({
     }
   },
   actions: {
-    deleteRecord ({ commit }, id) {
+    async deleteRecord({ commit }, id) {
+      await RecordService.deleteRecord(id)
       commit('deleteRecord', id)
     },
-    updateRecord ({ commit, state }, record) {
+    async updateRecord({ commit, state }, record) {
       if (record.id === -1) {
-        let createdRecordId = state.records[state.records.length - 1].id + 1
-        commit('addNewRecord', {id: createdRecordId, name: record.name, number: record.number})
+        let { data } = await RecordService.addNewRecord(record)
+        commit('addNewRecord', data)
       } else {
+        await RecordService.updateRecord(record)
         commit('updateRecord', record)
       }
     },
-    async loadRecords ({ commit }) {
-      let {data} = await RecordService.getAllRecords()
+    async loadRecords({ commit }) {
+      let { data } = await RecordService.getAllRecords()
       data.forEach(rec => {
         commit('addNewRecord', rec)        
       });
